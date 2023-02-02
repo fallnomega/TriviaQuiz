@@ -5,7 +5,7 @@ from art import logo
 
 list_of_questions = []
 for question in question_data:
-    list_of_questions.append(Question(question['text'], question['answer']))
+    list_of_questions.append(Question(question['question'], question['correct_answer']))
 
 the_brain = QuizBrain(list_of_questions)
 
