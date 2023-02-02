@@ -13,5 +13,5 @@ print(logo)
 
 while the_brain.still_has_questions():
     the_brain.next_question()
-
-print(f"Total answered correctly: {the_brain.score}")
+print("You've completed the quiz")
+print(f"Total answered correctly: {the_brain.score}/{the_brain.question_number}")
